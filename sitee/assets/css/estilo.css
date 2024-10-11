@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.foto {
+    width: 100%; /* Tamanho da imagem */
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7f9f64;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 400px;
+    background: white;
+    border-radius: 30px;
+}
+
+h3 {
+    color: #efa143;
+}
+
+.descricao .primeira {
+    text-align: center;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo do botão */
+.botaocalculadora {
+    padding: 10px;
+    background-color: #7f9f64;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botaocalculadora:hover {
+    background-color: #efa143;
+}
+
+/* Estilo do resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.paragrafo {
+    color: #efa143;
+}
